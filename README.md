@@ -99,31 +99,7 @@ Baris ini akan berlari biar bagaimanapun
 
 Sekarang Anda telah pelajari bagaimana menggunakan `if` untuk percabangan terkondisi dan ekspresi-ekspresi, Lanjutkan ke latihan berikut.
 
-```kotlin
-   fun main(args: ArrayList<String>){
-       var x = 1
-    
-        while (x < ...){
-            ... ( if (x == ...) "Yab" else "Dab")
-            ... ("ba")
-            x = x + 1
-        }
-        if ( x == ... ) println("Do")
-   } 
-```
-
-* `println`
-* `print`
-* 4
-* 3
-* 2
-* 2
-* 3
-* 1
-* `print`
-* 4
-* 1
-* `println`
+![](https://github.com/aabeben/pergi_dulu_ke_kotlin/blob/main/images/latihan1.png?raw=true)
 
 ## Menggunakan si cangkang interaktifnya Kotlin
 
@@ -134,3 +110,39 @@ Kita sedikit lagi sampai di akhir bab, tetapi sebelum kita pergi, Masih ada satu
 > 
 
 Anda buka si REPL dengan pergi ke menu **Tools** di dalam IntelliJ IDEA dan memilih Kotlin --> Kotlin REPL. Dengan demikian sebuah panel baru akan terbuka pada bagian bawah dari layar seperti berikut:
+![Kotlin REPL](https://github.com/aabeben/pergi_dulu_ke_kotlin/blob/main/images/repl.png?raw=true)
+
+![](https://github.com/aabeben/pergi_dulu_ke_kotlin/blob/main/images/repl1.png?raw=true)
+
+Untuk menggunakan si REPL, hanya ketik si kode yang Anda inginkan untuk diujicoba ke dalam si jendela REPL. Sebagai contoh, cobalah untuk menambahkan yang berikut:
+
+```kotlin
+    println("Saya senang akan kura-kura!")
+```
+
+Segera setelah Anda menambahkan si kode, eksekusikanlah akan dia dengan cara mengklik pada tombol hijau besar bertuliskan Run pada bagian sisi sebelah kiri daripada si jendela REPL setelah sebuah jeda Anda akan melihat si keluaran "Saya senang akan kura-kura!" di dalam jendela REPL:
+
+![](https://github.com/aabeben/pergi_dulu_ke_kotlin/blob/main/images/repl2.png?raw=true)
+
+Anda dapat menambahkan banyak baris potongan-potongan kode ke si REPL
+
+Selain menambahkan baris tunggal potongan-potongan kode ke si REPL, seperti yang telah kita lakukan pada halaman sebelumnya, Anda dapat mengujicoba serpihan-serpihan kode yang mencakup banyak baris. Sebagai contoh, cobalah menambahkan baris-baris berikut ke jendela si REPL:
+
+![](https://github.com/aabeben/pergi_dulu_ke_kotlin/blob/main/images/repl3.png?raw=true)
+
+Ketika Anda mengeksekusi si kode, Anda akan melihat si keluaran 8 di dalam si REPL seperti berikut:
+
+![](https://github.com/aabeben/pergi_dulu_ke_kotlin/blob/main/images/repl4.png?raw=true)
+
+**Saatnya latihan**
+
+![](https://github.com/aabeben/pergi_dulu_ke_kotlin/blob/main/images/repl5.png?raw=true)
+
+Sekarang Anda telah belajar bagaimana cara menulis kode Kotlin dan telah melihat beberapa sintaks dasarnya, lanjutkan ke latihan berikut. Ingat, jika anda tidak yakin, Anda dapat mencoba sembarang kode in dalam si REPL.
+
+
+![](https://github.com/aabeben/pergi_dulu_ke_kotlin/blob/main/images/code_meditation.jpg?raw=true)
+
+Masing-masing dari si berkas Kotlin pada halaman ini mewakili sebuah berkas kode sempurna. Tugas Anda ialah bermain seolah-olah Anda adalah si kompilator dan menentukan apakah masing-masing dari berkas ini semua akan terkompilasikan. Jika mereka semua itu tidak terkompilasikan, bagaimana Anda akan memperbaikinya?
+
+![](https://github.com/aabeben/pergi_dulu_ke_kotlin/blob/main/images/repl6.png?raw=true)
